@@ -1,0 +1,11 @@
+尝试复现了ACL2019年Joint Slot Filling and Intent Detection via Capsule Neural Networks论文
+最后结果没达到论文模型说的那么好，槽填充和意图识别都差%2左右(是我自己太菜了....)
+相比原模型改动 batch 由8 -> 4(主要是家里电脑带不起来)， intent的loss类型有margin->交叉熵
+
+仅供参考，也希望各位前辈提出意见帮我更好进步！！！
+
+环境：
+python3.7 
+win7
+cuda9.1
+pytorch
